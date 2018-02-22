@@ -1,0 +1,15 @@
+name: MGS_System
+main: Otacong\MGS_System
+version: 0.0.1
+api: [3.0.0-ALPHA10]
+load: STARTUP
+author: Otacong
+commands:
+ adminlogin:
+  description: "OP専用のFormです"
+  usage: 
+  permission: adminlogin.cmd
+permissions:
+ adminlogin.cmd:
+  description: "null"
+  default: op
